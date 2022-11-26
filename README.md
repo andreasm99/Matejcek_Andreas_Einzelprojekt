@@ -7,6 +7,11 @@ Projekts in der IDE öffnen
 4. Abwarten bis das Setup durchgeführt wurde
 5. Sobald Docker Desktop “running” anzeigt, kann man auf den localhost zugreifen
 6. Browser der Wahl öffnen
-7. Im Browser “http://localhost:8000/” eingeben und bestätigen
-8. Du bist jetzt auf der Startseite meines Projekts, viel Spaß damit :)
-9. Anmeldedaten: Username -> admin; Passwort -> admin
+Im Browser “http://localhost:8080/” eingeben und bestätigen
+Anmeldedaten: Username -> admin; Passwort -> admin
+Auf der linken Seite auf die Datenbank “revierplan” klicken
+Oben in der Leiste auf “Importieren”
+Die Tabellen “a_user.sql” und “a_abschuss.sql” per drag and drop auf das Feld ziehen
+Im Browser “http://localhost:8000/” eingeben und bestätigen
+Du bist jetzt auf der Startseite meines Projekts, viel Spaß damit :) 
+Anmeldedaten: Username -> admin; Passwort -> admin
