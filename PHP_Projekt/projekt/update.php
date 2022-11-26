@@ -47,7 +47,7 @@
                         </span>
                         <div class="col-12 d-flex justify-content-left align-items-center">
                             <input type="radio" class="btn-check" name="type" id="abschuss-radio" autocomplete="off" value="Abschuss" checked>
-                            <label class="btn btn-success" for="abschuss-radio" id="abschuss">
+                            <label class="btn btn-success" for="abschuss-radio">
                                 <span class="material-symbols-outlined">
                                     add
                                 </span>Abschuss
@@ -84,7 +84,7 @@
                         <div class="col-12 d-flex justify-content-left align-items-center ">
                             <div class="col-12 d-flex justify-content-left align-items-center">
                                 <input type="radio" class="btn-check" name="gender" id="maennlich-radio" autocomplete="off" value="🔵" checked>
-                                <label class="btn btn-success" for="maennlich-radio" id="maennlich">
+                                <label class="btn btn-success" for="maennlich-radio">
                                     <span class="material-symbols-outlined">
                                         male
                                     </span>Männlich
