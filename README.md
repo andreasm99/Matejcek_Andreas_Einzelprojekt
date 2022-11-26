@@ -8,7 +8,7 @@
 8. Anmeldedaten: Username -> admin; Passwort -> admin
 9. Auf der linken Seite auf die Datenbank “revierplan” klicken
 10. Oben in der Leiste auf “Importieren”
-11. Die Tabellen “a_user.sql” und “a_abschuss.sql” per drag and drop auf das Feld ziehen
+11. Die Tabellen “a_user.sql” und “a_abschuss.sql” aus dem Ordner "Datenbank" per drag and drop auf das Feld ziehen
 12. Im Browser “http://localhost:8000/” eingeben und bestätigen
 13. Du bist jetzt auf der Startseite meines Projekts, viel Spaß damit :) 
 14. Anmeldedaten: Username -> admin; Passwort -> admin
