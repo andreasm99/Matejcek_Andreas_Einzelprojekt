@@ -1,0 +1,125 @@
+.input-group-append {
+    cursor: pointer;
+  }
+
+.headerfont{
+    font-weight: 700;
+}
+
+.entry-label{
+    font-weight: 500;
+}
+
+#nametag-left{
+    font-weight: 500;
+}
+
+#abschuss{
+    height: 5vh;
+    background-color: #E6F8EF;
+    color: #027A48;
+    border-style: none;
+}
+
+#abschuss:active{
+    background-color: #027A48;
+    color: #E6F8EF;
+    border-style: none;
+}
+
+
+#sichtung{
+    height: 5vh;
+    background-color: #F8F5E6;
+    color: #7A4302;
+    border-style: none;
+}
+
+#maennlich{
+    height: 5vh;
+    background-color: #EFF8FF;
+    color: #165AD0;
+    border-style: none;
+}
+
+#maennlich:checked{
+    height: 5vh;
+    background-color: #165AD0;
+    color: #EFF8FF;
+    border-style: none;
+}
+
+#maennlich:hover{
+    height: 5vh;
+    background-color: #165AD0;
+    color: #EFF8FF;
+    border-style: none;
+}
+
+#weiblich{
+    height: 5vh;
+    background-color: #F3F0FB;
+    color: #6740C3;
+    border-style: none;
+}
+
+#weiblich:active{
+    height: 5vh;
+    background-color: #6740C3;
+    color: #F3F0FB;
+    border-style: none;
+}
+
+#weiblich:hover{
+    height: 5vh;
+    background-color: #6740C3;
+    color: #F3F0FB;
+    border-style: none;
+}
+
+#ungewiss{
+    height: 5vh;
+    background-color: #F1F1F1;
+    color: #646464;
+    border-style: none;
+}
+
+#ungewiss:active{
+    height: 5vh;
+    background-color: #646464;
+    color: #F1F1F1;
+    border-style: none;
+}
+
+#ungewiss:hover{
+    height: 5vh;
+    background-color: #646464;
+    color: #F1F1F1;
+    border-style: none;
+}
+
+.headerline{
+    border-top: 2px solid grey;
+}
+
+#con-rightside{
+    height: 90vh;
+    margin-left: 0.5%;
+}
+
+#con-leftside{
+    height: 90vh; 
+    position: relative; 
+    overflow: hidden;
+    margin-right: 0.5%;
+}
+
+.roedeer{
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden{
+    display: none;
+}

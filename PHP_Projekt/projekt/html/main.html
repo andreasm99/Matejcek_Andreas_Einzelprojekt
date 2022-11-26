@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/CSS/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="/JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center align-items-center bg-white" style="height: 100vh;">
+
+        <!-- Linke Seite -->
+        <div class="col-4 d-flex justify-content-left align-items-center bg-body shadow p-3 mb-5 rounded" id="con-leftside" >
+            <div class="col-12" style="height: 80vh; margin: 8%;" >
+                <div class="col-10">
+                    <h4 class="headerfont">Eintrag hinzufügen</h4>
+                    <hr class="headerline">
+                </div>
+                <div class="col-10 " style="margin-top: 2%; height: 8vh;">
+                    <span class="entry-label">
+                        Art des Eintrags
+                    </span>
+                    <div class="col-12 d-flex justify-content-left align-items-center ">
+                        <button type="button" class="btn btn-success" id="abschuss" style="margin-right: 3%;">
+                            <div class="container-fluid d-flex justify-content-left align-items-center">
+                                <span class="material-symbols-outlined">
+                                    done
+                                </span>Abschuss
+                            </div>
+                        </button>
+                        <button type="button" class="btn btn-success" id="sichtung" style="margin-right: 3%;">
+                            <div class="container-fluid d-flex justify-content-left align-items-center">
+                                <span class="material-symbols-outlined" style="padding-right: 8%;">visibility
+                                </span>Sichtung
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-10 " style="margin-top: 2%; height: 8vh;">
+                    <span class="entry-label">Wildart</span>
+                    <div class="col-12 d-flex justify-content-left align-items-center">
+                        <div class="dropdown">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Wildart auswählen
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#"><img class="roedeer" src="/src/icon/deer.png">Rehwild</a></li>
+                              <li><a class="dropdown-item" href="#">Schwarzwild</a></li>
+                              <li><a class="dropdown-item" href="#">Rotwild</a></li>
+                              <li><a class="dropdown-item" href="#">Muffelwild</a></li>
+                              <li><a class="dropdown-item" href="#">Fuchs</a></li>
+                              <li><a class="dropdown-item" href="#">Waschbär</a></li>
+                              <li><a class="dropdown-item" href="#">Fasan</a></li>
+                              <li><a class="dropdown-item" href="#">Rebhuhn</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-10 " style="margin-top: 2%; height: 8vh;">
+                    <span class="entry-label">Geschlecht</span>
+                    <div class="col-12 d-flex justify-content-left align-items-center ">
+                        <button type="button" class="btn btn-success" id="maennlich" style="margin-right: 3%;">
+                            <div class="container-fluid d-flex justify-content-left align-items-center">
+                                <span class="material-symbols-outlined">
+                                    male
+                                </span>Männlich
+                            </div>
+                        </button>
+                        <button type="button" class="btn btn-success" id="weiblich" style="margin-right: 3%;">
+                            <div class="container-fluid d-flex justify-content-left align-items-center">
+                                <span class="material-symbols-outlined">
+                                    female
+                                </span>Weiblich
+                            </div>
+                        </button>
+                        <button type="button" class="btn btn-success" id="keineangabe">
+                            <div class="container-fluid d-flex justify-content-left align-items-center">
+                                Keine Angabe
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-10 " style="margin-top: 2%; height: 8vh;">
+                    <span class="entry-label">Menge</span>
+                    <div class="col-12 d-flex justify-content-left align-items-center ">
+                        <button type="button" class="btn btn-success">+ 2 -</button>
+                    </div>
+                </div>
+                <div class="col-10 " style="margin-top: 2%; height: 8vh;">
+                    <span class="entry-label">Datum & Uhrzeit</span>
+                    <div class="col-12 d-flex justify-content-left align-items-center ">
+                        <form class="col-6">
+                            <div class="col-12">
+                              <div class="input-group date" id="datepicker">
+                                <input type="text" class="form-control" id="date"/>
+                                <span class="input-group-append">
+                                  <span class="input-group-text bg-light d-block">
+                                    <i class="fa-regular fa-calendar"></i>
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </form>
+                          <div class="cs-form">
+                            <input type="time" class="form-control" value="10:05 AM" />
+                          </div>
+                    </div>
+                </div>
+                <div class="col-10 " style="margin-top: 2%; height: 8vh;">
+                    <div class="col-12 d-flex justify-content-left align-items-center ">
+                        <button type="button" class="btn btn-success">Eintrag hinzufügen!</button>
+                    </div>
+                </div>
+                <div class="col-10 bg-light d-flex justify-content-left align-items-center" style="margin-top: 2%; height: 8vh; position: absolute; bottom: 0; left: 0; width: 100%; overflow: hidden;">
+                    <div class="col-2 d-flex justify-content-left align-items-center" style="padding-left: 5%; height: 5vh;">
+                        <img src="/src/img/Avatar.png" class="img-fluid" alt="Rehwild" style="height: 100%; border-radius: 5%;">
+                    </div>
+                    <div class="col-10 d-flex justify-content-between align-items-center " style="padding-left: 5%; padding-right: 5%;">
+                        <span id="nametag-left">Max Mustermann</span>
+                        <span>Revierinhaber</span>
+                        <span>19 Einträge</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rechte Seite -->
+        <div class="col-6 d-flex justify-content-center bg-body shadow p-3 mb-5 rounded" id="con-rightside">
+            <div class="col-12 d-flex justify-content-center align-items-center" style="padding: 4%;">
+                <div class="col-12" style="height: 80vh;" >
+                    <div class="col-10">
+                        <h4 class="headerfont">Revierliste</h4>
+                        <hr class="headerline">
+                    </div>
+                    <div class="container-fluid">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Typ</th>
+                                <th scope="col">Wildart</th>
+                                <th scope="col">Geschlecht</th>
+                                <th scope="col">Alter</th>
+                                <th scope="col">Datum</th>
+                                <th scope="col">Uhrzeit</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark F.</td>
+                                <td>Abschuss</td>
+                                <td>Rehwild</td>
+                                <td>🔵 ⚫</td>
+                                <td>3+</td>
+                                <td>12.11.2022</td>
+                                <td>16:30</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob R.</td>
+                                <td>Sichtung</td>
+                                <td>Schwarzwild</td>
+                                <td>🟣</td>
+                                <td>1+</td>
+                                <td>10.12.2022</td>
+                                <td>02:30</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
